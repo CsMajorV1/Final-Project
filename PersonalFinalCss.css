@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+            body{
+				font-family: 'Black Ops One', cursive;
+			}
+			nav{
+				text-align: center;
+			}
+			footer {
+				text-align: center
+			}
+
+div.nav{
+    width:90%;
+     margin: auto;
+ }
+ul.nav {
+    margin:0;
+    padding:0;
+    list-style:none;
+    height:46px; line-height:36px;
+    background:#FF331F; /* you can change the backgorund color here. */
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:18px;
+}
+input.radio {
+    margin-left: auto;
+}
+ul.nav li {
+    width:20%;
+	text-align:center;
+    height:46px;
+    float:left;
+	
+}
+ul.nav a {
+    margin-top: 5px;
+    display:block;
+    color:#ccece6;
+    text-decoration:none;
+}
+ul.nav a:hover,
+ul.nav li.current a {
+    background:#F7B801;
+}
+body{
+    background-image: url('https://images.fineartamerica.com/images-medium-large-5/toronto-skyline-thomas-kurmeier.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+title{
+    background-Color:#985F6F;
+}
+#MainTitle{
+    text-align:center;
+}
+#MainBody{
+    background-color:#3626A7;
+    text-align:center;
+}
+#MainBody2{
+    text-align:center;
+    width:60%;
+    margin:auto;
+}
+
+#outside{
+    padding-left:10%;
+    padding-right:10%;
+}
+
+#subdiv1{
+    background-color: #F7B801;
+    padding:15px;
+    margin:30px;
+}
+#subdiv2{
+    background-color: #3626A7;
+    padding:15px;
+    margin:30px;
+}
+#subdiv1L{
+    display: flex;
+    background-color: #F7B801;
+    padding:15px;
+    margin:30px;
+    width:70%;
+}
+#subdiv2R{
+    display:flex;
+    float:right;
+    background-color: #3626A7;
+    padding:15px;
+    margin:30px;
+    width:70%;
+}
+#subdivsmall{
+
+}
+footer{
+    background-color:teal;
+    padding:5%;
+}
+
